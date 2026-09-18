@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: radial-gradient(circle at center, #111827 0%, #030712 100%);
+  color: #9ca3af;
+}
+
+/* Textos informativos en la parte inferior */
+.footer-watermarks {
+  font-size: 0.75rem;
+  color: #4b5563;
+}
+
+/* Tarjeta Principal Oscura */
+.main-card {
+  background: #0b0f19;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Icono con degradado magenta a azul */
+.app-icon-wrapper {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #d946ef 0%, #3b82f6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(217, 70, 239, 0.25);
+}
+
+.app-icon {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+}
+
+/* Paneles internos */
+.panel-box {
+  background: #111827;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.panel-title {
+  color: #e5e7eb;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Puntos indicadores de color */
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.red-dot { background-color: #ef4444; }
+.green-dot { background-color: #22c55e; }
+.blue-dot { background-color: #3b82f6; }
+
+/* Entradas Numéricas */
+.custom-input {
+  background: #1f2937;
+  border: 1px solid #374151;
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.custom-input:focus {
+  background: #1f2937;
+  color: #ffffff;
+  border-color: #3b82f6;
+  box-shadow: none;
+}
+
+/* Controles de Rango (Sliders) */
+.form-range {
+  height: 4px;
+}
+.form-range::-webkit-slider-runnable-track {
+  background-color: #1f2937;
+  height: 4px;
+  border-radius: 2px;
+}
+.range-red::-webkit-slider-thumb { background-color: #3b82f6; }
+.range-green::-webkit-slider-thumb { background-color: #3b82f6; }
+.range-blue::-webkit-slider-thumb { background-color: #3b82f6; }
+
+/* Selector de color personalizado */
+.picker-input {
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: transparent;
+}
+.picker-input::-webkit-color-swatch-wrapper { padding: 0; }
+.picker-input::-webkit-color-swatch { border: none; border-radius: 8px; }
+
+/* Recuadro de Muestra de Color Limpio */
+.preview-box {
+  height: 140px;
+  border-radius: 12px;
+  transition: background-color 0.15s ease;
+}
+
+/* Cajas de Código RGB / HEX */
+.code-box {
+  background: #111827;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.code-label {
+  font-size: 0.65rem;
+  color: #6b7280;
+  font-weight: 700;
+}
+
+.code-text {
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+.btn-copy {
+  color: #6b7280;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.btn-copy:hover {
+  color: #ffffff;
+  background: #1f2937;
+}

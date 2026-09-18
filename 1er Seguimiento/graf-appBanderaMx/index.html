@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bandera de México</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="text-center">
+    <h1>Bandera de México</h1>
+  </header>
+
+  <main class="flag-container">
+    
+    <!-- Franja Verde -->
+    <div class="stripe-column">
+      <div class="control-panel">
+        <span class="meaning-title">Esperanza</span>
+        <!-- Slider para matices de verde (0 a 255) -->
+        <input type="range" id="green-slider" min="0" max="255" value="153">
+        <span class="hex-display" id="green-hex">#009900</span>
+      </div>
+      <div class="color-block" id="green-block"></div>
+    </div>
+
+    <!-- Franja Blanca con Escudo -->
+    <div class="stripe-column">
+      <div class="control-panel">
+        <span class="meaning-title">Unidad</span>
+        <span class="hex-display">#FFFFFF</span>
+      </div>
+      <div class="color-block white-block">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg" alt="Escudo Nacional de México" class="coat-of-arms">
+      </div>
+    </div>
+
+    <!-- Franja Roja -->
+    <div class="stripe-column">
+      <div class="control-panel">
+        <span class="meaning-title">Sangre de nuestros héroes nacionales</span>
+        <!-- Slider para matices de rojo (0 a 255) -->
+        <input type="range" id="red-slider" min="0" max="255" value="157">
+        <span class="hex-display" id="red-hex">#9D0000</span>
+      </div>
+      <div class="color-block" id="red-block"></div>
+    </div>
+
+  </main>
+
+  <footer class="team-footer">
+    <p><strong>Integrantes:</strong></p>
+    <p>Alumno 1 - No. Control: XXXXXXXX | Alumno 2 - No. Control: XXXXXXXX | Alumno 3 - No. Control: XXXXXXXX</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
